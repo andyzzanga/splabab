@@ -1,0 +1,23 @@
+# Production data and credentials
+*.sqlite
+*.sqlite-*
+*.db
+.env
+.env.*
+!.env.example
+receipts/
+sessions/
+setup.token
+
+# Runtime files and backups
+*.log
+*.tmp
+*.bak
+*.bak-*
+*.before-*
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
